@@ -1,0 +1,94 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+    -webkit-box-shadow: 12px 14px 5px 3px rgba(0,0,0,0.15);
+    box-shadow: 12px 14px 5px 3px rgba(0,0,0,0.15);
+    border: solid 1px grey;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    align-content: center;
+}
+.menu {
+    width: 15%;
+    background-color: #51b4df;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: #f5f5f5;
+    min-height: 150px;
+}
+.content {
+    background-color: #ffffff;
+    min-height: 400px;
+    padding: 20px;
+    text-align: center;
+}
+.footer {
+    background-color: #00609c;
+    min-height: 50px;
+    text-align: center;
+}
+.header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.alert {
+    color: #ff0000;
+    font-style: italic;
+}
+.tableHours {
+     margin: 0px auto;
+}
+table thead th {
+    background-color: #000000;
+    color: #ffffff;
+}
+table  tbody tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
+.withoutDot {
+    list-style-type: none;
+    margin-bottom: 20px;
+  }
+li.center {
+    width: fit-content;
+    margin: auto;
+}
+h1, h3 {
+    color: #00609c;
+}
+input {
+    margin-bottom: 20px;
+}
+label {
+    display: flex;
+    margin-left: 290px;
+}
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #00609c;
+    color: #ffffff;
+}
+fieldset {
+    border-color: #51b4df;
+    margin-bottom: 20px;
+}
+legend {
+    color: #00609c;
+}
