@@ -5,6 +5,8 @@
 
 ### **Link do site:** https://nayarabr.github.io/first-site/
 
+**Para esse desafio criei um site de exemplo para uma clínica odontológica!**
+
 **Entendendo o Desafio**
 
 Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que vimos neste módulo. Os temas que deverão ser abordados são:
